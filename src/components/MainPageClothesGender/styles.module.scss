@@ -1,0 +1,19 @@
+.clothesGender {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    gap: 4px;
+    outline: 1px solid blue;
+}
+
+.clothesCard {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clothesCard p {
+    font-weight: bold;
+}
