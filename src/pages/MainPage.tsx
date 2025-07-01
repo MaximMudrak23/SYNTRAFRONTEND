@@ -12,18 +12,16 @@ import { Footer } from "../components/Footer"
 export function MainPage() {
     return (
         <>
-            <div style={{display: "flex", flexDirection: "column", gap: '12px'}}>
-                <Header />
-                <MainPageBanner />
-                <MainPageRoller />
-                <MainPageClothesGender />
-                <MainPageGetTheLook />
-                <MainPageAdForGender />
-                <MainPageYouMayLike />
-                <MainPageMusicAD />
-                <MainPageSubscribe />
-                <Footer />
-            </div>
+            <Header />
+            <MainPageBanner />
+            <MainPageRoller />
+            <MainPageClothesGender />
+            <MainPageGetTheLook />
+            <MainPageAdForGender />
+            <MainPageYouMayLike />
+            <MainPageMusicAD />
+            <MainPageSubscribe />
+            <Footer />
         </>
     )
 }
