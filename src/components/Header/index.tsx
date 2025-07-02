@@ -33,7 +33,34 @@ export function Header() {
                     </div>
                 </div>
             </div>
-            <div className={zxc.headerRight}></div>
+            <div className={zxc.headerRight}>
+                <div className={zxc.headerRightS1}>
+                    <div className={zxc.selectedCurrency}>
+                        <p>UAH</p>
+                    </div>
+                    <div className={zxc.selectedLanguage}>
+                        <p>УКР</p>
+                    </div>
+                </div>
+                <div className={zxc.headerRightS2}>
+                    <div className={zxc.logIn}>
+                        <div className={zxc.logInIcon}>
+                            <img src={`/svg/userSVG.svg`} alt="USER ICON" />
+                        </div>
+                        <div className={zxc.logInInscription}>
+                            <p>{languageObj[selectedLanguage].logIn}</p>
+                        </div>
+                    </div>
+                    <div className={zxc.cart}>
+                        <div className={zxc.cartIcon}>
+                            <img src={`/svg/cartSVG.svg`} alt="CART ICON" />
+                        </div>
+                        <div className={zxc.cartInscription}>
+                            <p>{languageObj[selectedLanguage].cart}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

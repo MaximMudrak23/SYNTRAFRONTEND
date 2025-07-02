@@ -10,30 +10,33 @@
 
 .headerLeft, .headerRight {
     display: flex;
-}
-.headerLeft {
-    flex: 1;
+    gap: 24px;
 }
 .headerRight {
     flex: 1;
+    justify-content: flex-end;
 }
 
-// Header Sections
+// HEADER LEFT SECTIONS
 .headerLeftS1, .headerLeftS2, .headerLeftS3 {
     flex: 1;
     text-wrap: nowrap;
 }
 .headerLeftS1 {
+    max-width: 150px;
+    min-width: 150px;
 }
 .headerLeftS2 {
-    margin: 0 36px;
-    
+    max-width: 320px;
+    min-width: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
 }
 .headerLeftS3 {
+    max-width: 220px;
+    min-width: 220px;
 }
 
 // LEFT
@@ -105,4 +108,86 @@
     font-size: 0.9rem;
     font-weight: 500;
     color: white;
+}
+
+// HEADER RIGHT SECTIONS
+.headerRightS1, .headerRightS2 {
+    text-wrap: nowrap;
+    display: flex;
+}
+.headerRightS1 {
+    gap: 12px;
+}
+
+// RIGHT
+/// S1
+.selectedCurrency, .selectedLanguage {
+    max-width: 80px;
+    min-width: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+/// S2
+.logIn {
+    max-width: 210px;
+    min-width: 210px;
+    flex: 1.5;
+    display: flex;
+    cursor: pointer;
+}
+.logIn .logInIcon {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logIn .logInIcon img {
+    width: 75%;
+    height: 75%;
+}
+.logIn .logInInscription {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9;
+    font-weight: 500;
+}
+
+.cart {
+    max-width: 120px;
+    min-width: 120px;
+    flex: 1;
+    display: flex;
+}
+.cart .cartIcon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart .cartIcon img {
+    width: 75%;
+    height: 75%;
+}
+.cart .cartInscription {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9;
+    font-weight: 500;
+}
+
+@media (max-width: 1310px) {
+    .header {
+        display: none;
+    }
 }

@@ -3,6 +3,8 @@ export const languageObj = {
         man: 'ЧОЛОВІКИ',
         woman: 'ЖІНКИ',
         searchThere: 'ШУКАТИ ТУТ',
+        logIn: 'УВІЙТИ В СИСТЕМУ',
+        cart: 'КОШИК',
     },
     ru: {
 
