@@ -5,6 +5,7 @@ export const languageObj = {
         searchThere: 'ШУКАТИ ТУТ',
         logIn: 'УВІЙТИ В СИСТЕМУ',
         cart: 'КОШИК',
+        closeWindow: 'ЗАКРИТИ ВІКНО',
     },
     ru: {
 
