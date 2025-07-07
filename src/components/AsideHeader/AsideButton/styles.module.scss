@@ -1,0 +1,28 @@
+.buttonAside {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    background-color: #242424;
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: rotate 0.5s ease;
+}
+.buttonAside:hover {
+    rotate: 90deg;
+}
+.buttonAside img {
+    width: 70%;
+    height: 70%;
+}
+
+@media (max-width: 1060px) {
+    .buttonAside {
+        display: flex;
+    }
+}

@@ -11,5 +11,6 @@ html, body {
   background: linear-gradient(to right, #0A0A0A, #111111);
   color: white;
   min-width: 320px;
+  overflow-x: hidden;
   overflow-y: auto;
 }
