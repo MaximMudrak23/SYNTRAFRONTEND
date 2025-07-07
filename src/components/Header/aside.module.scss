@@ -11,6 +11,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: rotate 0.5s ease;
+}
+.buttonAside:hover {
+    rotate: 90deg;
 }
 .buttonAside img {
     width: 70%;
@@ -95,6 +99,13 @@
     font-weight: 400;
 }
 
+.atOption {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.atSelectedOption {
+    cursor: default;
+}
 .atOption, .atSelectedOption {
     width: 100%;
     height: 50px;
@@ -119,6 +130,9 @@
     font-weight: 500;
 }
 // ASIDE_TOP OPTION SELECTED AND NOT
+.atOption:hover {
+    background-color: rgba($color: whitesmoke, $alpha: 0.04);
+}
 .atOption .atOptionInscription {
     color: #7C7C7C;
 }
@@ -126,6 +140,7 @@
     color: white;
 }
 
+// LINE BETWEEN
 .lineBetween {
     width: 100%;
     height: 24px;
@@ -144,7 +159,9 @@
 
 // ASIDE MIDDLE
 .amSelCurrAndLang {
-    @extend .atOption;
+    // @extend .atOption;
+    width: 100%;
+    display: flex;
     height: 65px;
 }
 .amSelectedCurrency, .amSelectedLanguage {
@@ -156,9 +173,10 @@
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 .amSelectedCurrency:hover, .amSelectedLanguage:hover {
-    background-color: rgba($color: whitesmoke, $alpha: 0.12);
+    background-color: rgba($color: whitesmoke, $alpha: 0.10);
 }
 
 // ASIDE BOTTOM
@@ -166,9 +184,11 @@
     width: 100%;
     height: 65px;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 .abOption:hover {
-    background-color: rgba($color: whitesmoke, $alpha: 0.12);
+    background-color: rgba($color: whitesmoke, $alpha: 0.10);
 }
 .abOptionSVG {
     width: 60px;
