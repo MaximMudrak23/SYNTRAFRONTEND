@@ -16,7 +16,7 @@ export function AsideHeader() {
         <>
             <AsideButton setIsAsideOpen={setIsAsideOpen} />
             <AsideBackground isAsideOpen={isAsideOpen} setIsAsideOpen={setIsAsideOpen} />
-            <AsidePanel isAsideOpen={isAsideOpen} />
+            <AsidePanel isAsideOpen={isAsideOpen} setIsAsideOpen={setIsAsideOpen} />
         </>
     )
 }

@@ -1,6 +1,6 @@
 import { Header } from "../components/Header"
 import { AsideHeader } from "../components/AsideHeader"
-import { MainPageBanner } from "../components/MainPageBanner"
+import { MainPageSlider } from "../components/MainPageSlider"
 import { MainPageRoller } from "../components/MainPageRoller"
 import { MainPageClothesGender } from "../components/MainPageClothesGender"
 import { MainPageGetTheLook } from "../components/MainPageGetTheLook"
@@ -15,7 +15,7 @@ export function MainPage() {
         <>
             <Header />
             <AsideHeader />
-            <MainPageBanner />
+            <MainPageSlider />
             <MainPageRoller />
             <MainPageClothesGender />
             <MainPageGetTheLook />

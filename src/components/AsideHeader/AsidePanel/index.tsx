@@ -2,7 +2,12 @@ import zxc from './styles.module.scss'
 import { languageObj } from '../../../other/languageData'
 const selectedLanguage = 'ua';
 
-export function AsidePanel({ isAsideOpen }: {isAsideOpen: boolean}) {
+type AsidePanelProps = {
+  isAsideOpen: boolean;
+  setIsAsideOpen: (val: boolean) => void;
+};
+
+export function AsidePanel({ isAsideOpen, setIsAsideOpen }: AsidePanelProps) {
     return (
         <div className={`${zxc.aside} ${isAsideOpen ? zxc.open : ''}`}>
             <div className={zxc.asideTop}>
@@ -73,15 +78,15 @@ export function AsidePanel({ isAsideOpen }: {isAsideOpen: boolean}) {
                 </div>
                 <div className={zxc.abOption}>
                     <div className={zxc.abOptionSVG}>
-                        <img src={`/svg/userSVG.svg`} alt="CART ICON" />
+                        <img src={`/svg/userSVG.svg`} alt="USER ICON" />
                     </div>
                     <div className={zxc.abOptionInscription}>
                         <p>{languageObj[selectedLanguage].logIn}</p>
                     </div>
                 </div>
-                <div className={zxc.abOption}>
+                <div className={zxc.abOption} onClick={()=>setIsAsideOpen(false)}>
                     <div className={zxc.abOptionSVG}>
-                        <img src={`/svg/closeSVG.svg`} alt="CART ICON" />
+                        <img src={`/svg/closeSVG.svg`} alt="CLOSE ICON" />
                     </div>
                     <div className={zxc.abOptionInscription}>
                         <p>{languageObj[selectedLanguage].closeWindow}</p>
