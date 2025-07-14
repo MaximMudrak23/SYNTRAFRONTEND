@@ -1,5 +1,5 @@
 const allSlides = [
-    {url: './slider/allSlider/zxcPhoto.png', txt: 'zxc'},
+    {url: './slider/allSlider/zxcPhoto.png', txt: 'ЗАБИРАЙ НОВУ КОЛЕКЦІЮ'},
 ]
 export const manSlides = [
     ...allSlides,
