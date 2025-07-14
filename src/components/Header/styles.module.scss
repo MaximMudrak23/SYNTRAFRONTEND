@@ -192,7 +192,7 @@
 
 // ALL CONTAINERS
 .option, .selectedCurrency, .selectedLanguage, .logIn, .cart {
-    transition: background-color 0.5s ease;
+    transition: background-color 0.3s ease;
 }
 .option:hover, .selectedCurrency:hover, .selectedLanguage:hover, .logIn:hover, .cart:hover {
     background-color: rgba($color: #575757, $alpha: 0.2);

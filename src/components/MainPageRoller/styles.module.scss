@@ -1,5 +1,35 @@
 .roller {
     width: 100%;
     height: 40px;
-    outline: 1px solid red;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5%;
+}
+
+.rollerWrapper {
+    width: max-content;
+    display: flex;
+    animation: scroll 40s linear infinite;
+}
+
+.rollerWrapper p {
+    white-space: nowrap;
+    padding: 0 0.5rem;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+.rollerWrapper p::after {
+    content: ' —';
+    margin-left: 0.5rem;
+}
+
+@keyframes scroll {
+    0% {
+    transform: translateX(0%);
+    }
+    100% {
+    transform: translateX(-50%);
+    }
 }
