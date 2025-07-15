@@ -4,7 +4,7 @@ import { MainPageSlider } from "../components/MainPageSlider"
 import { MainPageRoller } from "../components/MainPageRoller"
 import { MainPageClothesGender } from "../components/MainPageClothesGender"
 import { MainPageGetTheLook } from "../components/MainPageGetTheLook"
-import { MainPageAdForGender } from "../components/MainPageAdForGender"
+import { MainPagePromoForGender } from "../components/MainPagePromoForGender"
 import { MainPageYouMayLike } from "../components/MainYouMayLike"
 import { MainPageMusicAD } from "../components/MainPageMusicAD"
 import { MainPageSubscribe } from "../components/MainPageSubscribe"
@@ -18,8 +18,8 @@ export function MainPage() {
             <MainPageSlider />
             <MainPageRoller />
             <MainPageClothesGender />
+            <MainPagePromoForGender />
             <MainPageGetTheLook />
-            <MainPageAdForGender />
             <MainPageYouMayLike />
             <MainPageMusicAD />
             <MainPageSubscribe />

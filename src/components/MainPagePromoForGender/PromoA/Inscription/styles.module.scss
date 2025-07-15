@@ -1,0 +1,17 @@
+.inscription {
+    font-weight: bold;
+}
+.inscription {
+    background-color: white;
+    font-size: 2rem;
+}
+.inscription span {
+    padding: 0 5px;
+}
+.inscription span:first-child {
+    margin-right: 6px;
+    color: black;
+}
+.inscription span:last-child {
+    background-color: black;
+}

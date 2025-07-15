@@ -10,6 +10,7 @@ const items = [
 export function MainPageGetTheLook() {
     return (
         <div className={zxc.getTheLook}>
+            
             <div className={zxc.description}>
                 <div className={zxc.descriptionL}><p>➜ GET THE LOOK</p></div>
                 <div className={zxc.descriptionR}>
