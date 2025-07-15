@@ -1,19 +1,41 @@
 .clothesGender {
     width: 100%;
-    height: 20vw;
+    height: 24vw;
     display: flex;
     gap: 4px;
-    outline: 1px solid blue;
 }
 
 .clothesCard {
     flex: 1;
+    min-width: 0;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: flex 0.5s ease;
+
+    &:hover {
+        flex: 1.4;
+    }
 }
 .clothesCard p {
+    font-size: 1.5rem;
     font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    user-select: none;
+}
+
+@media (max-width: 1075px) {
+    .clothesCard p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 820px) {
+    .clothesCard p {
+        font-size: 1rem;
+    }
 }
