@@ -10,7 +10,7 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #0A0A0A, #111111);
   color: white;
-  min-width: 320px;
+  min-width: 375px;
   overflow-x: hidden;
   overflow-y: auto;
 }

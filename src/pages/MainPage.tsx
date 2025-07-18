@@ -14,7 +14,7 @@ export function MainPage() {
     return (
         <>
             <Header />
-            <AsideHeader />
+            {/* <AsideHeader /> */}
             <MainPageSlider />
             <MainPageRoller />
             <MainPageClothesGender />

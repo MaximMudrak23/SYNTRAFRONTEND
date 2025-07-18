@@ -1,0 +1,35 @@
+.gtlGenCategories {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 0;
+}
+.item {
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 12px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    aspect-ratio: 4 / 5;
+    cursor: pointer;
+}
+
+
+@media (max-width: 750px) {
+    .gtlGenCategories {
+        justify-content: center;
+    }
+    .item {
+        flex: none;
+        width: 48%;
+    }
+}
