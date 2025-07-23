@@ -1,0 +1,45 @@
+.card {
+    height: 36vw;
+    aspect-ratio: 3 / 5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.cardIMG {
+    flex: 1;
+    position: relative;
+    user-select: none;
+    & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.cardInfo {
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+    & .cardInfoName {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    & .cardInfoPrice {
+        font-weight: 500;
+    }
+}
+
+.cardLocked {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba($color: #121212, $alpha: 0.4);
+    user-select: none;
+}

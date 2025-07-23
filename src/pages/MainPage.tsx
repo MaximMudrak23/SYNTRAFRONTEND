@@ -21,8 +21,8 @@ export function MainPage() {
             <MainPagePromoForGender />
             <MainPageGetTheLook />
             <MainPageYouMayLike />
-            <MainPageMusicAD />
-            <MainPageSubscribe />
+            {/* <MainPageMusicAD /> */}
+            {/* <MainPageSubscribe /> */}
             <Footer />
         </>
     )

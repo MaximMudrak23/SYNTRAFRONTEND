@@ -18,11 +18,11 @@ export function GtlHeader() {
                     </div>
                 </div>
             </div>
-            <div className={zxc.gtlHeaderSecond}>
+            {/* <div className={zxc.gtlHeaderSecond}>
                 <div className={zxc.gtlButton}>
                     <button>Переглянути усі стилі</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
