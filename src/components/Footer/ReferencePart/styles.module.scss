@@ -1,0 +1,37 @@
+.referencePart {
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: default;
+}
+.content {
+    flex: 1;
+    padding: 12px;
+
+    & ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        list-style: none;
+    }
+    & ul li {
+        width: max-content;
+        cursor: pointer;
+    }
+    & ul li:hover {
+        color: rgba($color: white, $alpha: 0.9);
+    }
+}
+
+@media (max-width: 800px) {
+    .referencePart {
+        flex-basis: 100%;
+    }
+}

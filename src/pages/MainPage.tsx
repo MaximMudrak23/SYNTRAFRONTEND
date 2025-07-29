@@ -20,7 +20,7 @@ export function MainPage() {
             <MainPageClothesGender />
             <MainPagePromoForGender />
             <MainPageGetTheLook />
-            <MainPageYouMayLike />
+            {/* <MainPageYouMayLike /> */}
             {/* <MainPageMusicAD /> */}
             {/* <MainPageSubscribe /> */}
             <Footer />

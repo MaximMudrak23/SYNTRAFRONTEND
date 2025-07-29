@@ -1,12 +1,14 @@
 import zxc from './styles.module.scss'
 import YMLCardStyles  from '../YMLCard/styles.module.scss';
-import { scrollByOneCard } from '../OtherLogic/scrollByOne'
+import { scrollByOneCard } from '../OtherLogic/scrollByOne';
+import { useScrollAvailability } from '../OtherLogic/useScrollAviability';
 
 type Props = {
     wrapperRef: React.RefObject<HTMLDivElement | null>;
 }
 
 export function YMLGoodsArrows({wrapperRef}: Props) {
+    // const {canScrollLeft, canScrollRight} = useScrollAvailability(wrapperRef);
     return (
         <div className={zxc.ymlGoodsArrows}>
             

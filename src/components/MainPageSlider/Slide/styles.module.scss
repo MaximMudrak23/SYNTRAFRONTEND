@@ -8,7 +8,7 @@
 .contentInscription {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 2rem;
@@ -17,18 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        height: 85%;
-        background-color: rgba(0, 0, 0, 0.2);
-        transform: translate(-50%, -50%);
-        z-index: -1;
-    }
 }
 
 .contentVisual {
