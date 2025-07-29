@@ -22,7 +22,7 @@ export function MainPage() {
             <MainPageGetTheLook />
             {/* <MainPageYouMayLike /> */}
             {/* <MainPageMusicAD /> */}
-            {/* <MainPageSubscribe /> */}
+            <MainPageSubscribe />
             <Footer />
         </>
     )
