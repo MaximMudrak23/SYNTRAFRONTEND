@@ -19,9 +19,10 @@ export function MainPage() {
             <MainPageRoller />
             <MainPageClothesGender />
             <MainPagePromoForGender />
+            {/* <MainPageClothesRoller /> */}
             <MainPageGetTheLook />
             {/* <MainPageYouMayLike /> */}
-            {/* <MainPageMusicAD /> */}
+            <MainPageMusicAD />
             <MainPageSubscribe />
             <Footer />
         </>
