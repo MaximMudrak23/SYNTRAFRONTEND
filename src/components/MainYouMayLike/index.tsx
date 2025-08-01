@@ -1,12 +1,12 @@
 import zxc from './styles.module.scss'
 import { YMLHeader } from './YMLHeader'
-import { YMLGoods } from './YMLGoods'
+import { YMLBody } from './YMLBody'
 
 export function MainPageYouMayLike() {
     return (
         <div className={zxc.youMayLike}>
             <YMLHeader />
-            <YMLGoods />
+            <YMLBody />
         </div>
     )
 }

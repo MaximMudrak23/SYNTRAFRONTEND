@@ -14,14 +14,14 @@ export function MainPage() {
     return (
         <>
             <Header />
-            {/* <AsideHeader /> */}
+            <AsideHeader />
             <MainPageSlider />
             <MainPageRoller />
             <MainPageClothesGender />
             <MainPagePromoForGender />
-            {/* <MainPageClothesRoller /> */}
+            {/* <MainPageClothesRoller /> як з обувью робив */}
             <MainPageGetTheLook />
-            {/* <MainPageYouMayLike /> */}
+            <MainPageYouMayLike />
             <MainPageMusicAD />
             <MainPageSubscribe />
             <Footer />
