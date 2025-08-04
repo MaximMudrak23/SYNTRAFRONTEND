@@ -1,6 +1,10 @@
 import zxc from './styles.module.scss'
 
-export function Card({imgIndex}: {imgIndex: number}) {
+type Props = {
+    imgIndex: number;
+}
+
+export function Card({imgIndex}: Props) {
     return (
         <div className={zxc.card}>
             <div className={zxc.cardIMG}>
