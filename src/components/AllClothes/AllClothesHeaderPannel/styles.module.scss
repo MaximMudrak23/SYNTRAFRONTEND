@@ -1,0 +1,32 @@
+.headerPannel {
+    height: 75px;
+    overflow: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.acButtonsFolder {
+    height: 100%;
+    padding: 0 6px;
+    
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.acButtonFilter {
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+@media (max-width: 1060px) {
+    .headerPannel {
+        border-bottom: 1px solid #575757;
+    }
+    .acButtonFilter {
+        padding-right: 85px;
+    }
+}

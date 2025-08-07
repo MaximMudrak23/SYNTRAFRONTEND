@@ -2,7 +2,7 @@ import zxc from './styles.module.scss'
 import { SliderContent } from './SliderContent';
 import { SliderIndicator } from './SliderIndicator';
 import { SlideButton } from './SlideButton';
-import { manSlides, womanSlides } from '../../other/slidesData';
+import { manSlides, womanSlides } from '../../../other/slidesData';
 import { useState,useEffect } from 'react';
 const gender = 'man';
 const slides = gender === 'man' ? manSlides : womanSlides;

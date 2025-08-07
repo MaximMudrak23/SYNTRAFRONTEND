@@ -1,5 +1,5 @@
 import zxc from './styles.module.scss'
-import { SliderBar } from './../SliderBar';
+import { SliderBar } from '../SliderBar';
 
 export function SliderIndicator({
     slides, currentIndex

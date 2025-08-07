@@ -1,0 +1,18 @@
+.acButton {
+    border-radius: 9999px;
+    padding: 12px;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid #3D3D3D;
+    transition: background-color 0.5s ease;
+    white-space: nowrap;
+    cursor: pointer;
+
+    display: flex;
+    gap: 6px;
+
+    &:hover {
+        background-color: #222222;
+    }
+}

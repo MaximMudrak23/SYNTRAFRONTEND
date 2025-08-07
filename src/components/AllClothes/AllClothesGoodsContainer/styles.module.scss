@@ -1,0 +1,13 @@
+.goodsContainer {
+    min-height: 100vh;
+    background-color: #121212;
+    padding: 8px;
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: start;
+    align-content: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}

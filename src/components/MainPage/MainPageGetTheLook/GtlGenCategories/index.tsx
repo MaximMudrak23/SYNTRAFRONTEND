@@ -1,5 +1,5 @@
 import zxc from './styles.module.scss'
-import { getTheLookIMG } from '../../../other/getTheLookData'
+import { getTheLookIMG } from '../../../../other/getTheLookData'
 
 export function GtlGenCategories() {
     return (

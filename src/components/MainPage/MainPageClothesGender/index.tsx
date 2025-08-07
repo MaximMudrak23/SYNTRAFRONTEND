@@ -1,5 +1,5 @@
 import zxc from './styles.module.scss'
-import { clothesManGenderData } from '../../other/clothesGenData';
+import { clothesManGenderData } from '../../../other/clothesGenData';
 const selectedLanguage = 'ua';
 
 export function MainPageClothesGender() {

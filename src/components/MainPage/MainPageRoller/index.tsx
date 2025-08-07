@@ -1,5 +1,5 @@
 import zxc from './styles.module.scss'
-import { rollerObj } from '../../other/rollerData'
+import { rollerObj } from '../../../other/rollerData'
 const selectedLanguage = 'en';
 
 export function MainPageRoller() {
