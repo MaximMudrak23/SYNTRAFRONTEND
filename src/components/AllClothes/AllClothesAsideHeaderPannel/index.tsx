@@ -1,6 +1,6 @@
 import zxc from './styles.module.scss'
-import { AsideHeader } from './asideHeader'
-import { AsideBody } from './asideBody'
+import { AsideHeader } from './AsideHeader'
+import { AsideBody } from './AsideBody'
 
 export function AllClothesAsideHeaderPannel() {
     return (
